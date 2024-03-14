@@ -1,0 +1,137 @@
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+padding-top: 5px;
+justify-self: center;
+align-self: center;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.2em;
+}
+.blog {
+    display: grid;
+    grid-template-columns: 800px 800px;
+    gap: 100px;
+}
+
+.text {
+    grid-column: 1;   
+}
+
+.images {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#raft_one {
+    border-radius: 10%;
+    grid-row: 1;   
+    border: 10px  solid #1E3231;
+}
+
+#raft_two {
+    border-radius: 10%;
+    grid-row: 2;    
+    border: 10px solid #1E3231;
+}
+
+#scorpion {
+    border-radius: 10%;
+    grid-row: 3;    
+    max-height: 400px;
+    justify-self: center;
+    border: 10px solid #1E3231;
+}
+
+#sheep {
+    border-radius: 10%;
+    grid-row: 4;
+    border: 10px solid #1E3231;
+}
+body {
+    background-color: #EAEBED;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    }
+
+h1, h2 {
+    font-family: Garamond,'Bradley Hand','Times New Roman',sans-serif;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+header {
+    background-color: #7D82B8;
+    padding: 35px;
+    display: grid;
+    grid-template-columns: 150px auto;
+   }
+
+footer {
+    background-color: #7D82B8;
+    color: #1E3231;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+text-align: center;
+text-decoration: none;
+color: #1E3231;
+padding: 35px;
+}
+
+nav a:hover {    
+   background-color: #BC2C1A;
+   color: #1E3231;
+   text-decoration: none;
+}
+
+footer a {
+ text-decoration: none;
+ color: #1E3231;
+ margin-top: 200px;
+}
+
+footer a:hover {
+text-decoration: none;
+color: #BC2C1A;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
